@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.meme span {
+  position:absolute;
+  width:100%;
+  left:0px;
+  margin-top: 280px;
+  font-size:38px;
+  color:white;
+  text-shadow: 2px 0 0 black;
+}
+
+.meme span:nth-child(1) {
+  margin-top: 50px;
+}
+
+
+.meme img {
+  width:100%;
+}
+
+body, .meme{
+  background: black;
+}
